@@ -1,5 +1,5 @@
 # ---------------------------------------------------------------------------
-# The Molecular Coder: ORCA Workflow GUI v4.0 Master (Combined)
+# The Molecular Coder: ORCA-Easy v1.0.0
 # Developer: Chaitanya Gadekar
 # Copyright (c) 2026 Chaitanya09102001
 # Licensed under the MIT License
@@ -117,7 +117,7 @@ class OrcaMasterGUI(ctk.CTk):
         super().__init__()
 
         self.settings = load_settings()
-        self.title("The Molecular Coder: ORCA Workflow v4.0 Master | Dev: Chaitanya Gadekar")
+        self.title("The Molecular Coder: ORCA-Easy v1.0.0 | Dev: Chaitanya Gadekar")
         self.geometry("1600x950")
 
         # Grid: two equal columns, row 1 = main content, row 2 = job bar, row 3 = launch
