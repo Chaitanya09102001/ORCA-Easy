@@ -46,3 +46,9 @@ The program features hardcoded dictionaries matching exact ORCA subroutines:
      smd true
      SMDsolvent "SolventName"
   end
+* **About Dependencies** : ORCA-Easy v1.0 is built using Python (v3.8–v3.11) and relies on the following open-source frameworks:
+customtkinter – Powers the modern, responsive, dark-themed User Interface.
+psutil – Handles real-time system hardware profiling (CPU threads & RAM allocation metrics).
+matplotlib – Manages data visualization components.
+orca_parser – Acts as the external analytical parser engine to extract essential values from .out log files.
+tkinter – Handles core native windowing and file dialog subroutines (built into Python).
